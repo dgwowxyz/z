@@ -54,7 +54,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default']       = { 1, { FontColor = "a7a2dc", MainColor = "000000", AccentColor = "675aff", BackgroundColor = "14131b", OutlineColor = "000000" } },
+		['Default']       = { 1, { FontColor = "ffffff", MainColor = "000000", AccentColor = "675aff", BackgroundColor = "14131b", OutlineColor = "000000" } },
 		['Linoria']       = { 2, { FontColor = "ffffff", MainColor = "1c1c1c", AccentColor = "0055ff", BackgroundColor = "141414", OutlineColor = "323232" } },
 		['Radioactive']   = { 3, { FontColor = "70ff59", MainColor = "000000", AccentColor = "00ff00", BackgroundColor = "000000", OutlineColor = "00ff00" } },
 		['BBot']          = { 4, { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414" } },
