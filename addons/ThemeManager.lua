@@ -54,7 +54,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default']       = { 1, { FontColor = "ffffff", MainColor = "000000", AccentColor = "675aff", BackgroundColor = "14131b", OutlineColor = "000000" } },
+		['Default']       = { 1, { FontColor = "ffffff", MainColor = "000000", AccentColor = "a954ff", BackgroundColor = "171717", OutlineColor = "2e2e2e" } },
 		['Linoria']       = { 2, { FontColor = "ffffff", MainColor = "1c1c1c", AccentColor = "0055ff", BackgroundColor = "141414", OutlineColor = "323232" } },
 		['Radioactive']   = { 3, { FontColor = "70ff59", MainColor = "000000", AccentColor = "00ff00", BackgroundColor = "000000", OutlineColor = "00ff00" } },
 		['BBot']          = { 4, { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414" } },
@@ -71,6 +71,7 @@ local ThemeManager = {} do
 		['Twitch']        = { 15, { FontColor = "ebebeb", MainColor = "1f1f23", AccentColor = "a970ff", BackgroundColor = "0e0e0e", OutlineColor = "2d2d2d" } },
 		['misclick.lua']  = { 16, { FontColor = "ebebeb", MainColor = "121212", AccentColor = "bd00ff", BackgroundColor = "121212", OutlineColor = "34003a" } },
 		['White']         = { 17, { FontColor = "ffffff", MainColor = "181818", AccentColor = "7e7e7e", BackgroundColor = "1b1b1b", OutlineColor = "000000" } },
+		['onetap.js']     = { 18, { FontColor = "ffffff", MainColor = "000000", AccentColor = "675aff", BackgroundColor = "14131b", OutlineColor = "000000" } },
 	}
 
 	function ApplyBackgroundVideo(videoLink)
