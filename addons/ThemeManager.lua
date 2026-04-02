@@ -54,7 +54,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['starsucks.wh']  		   = { 1, { FontColor = "ffffff", MainColor = "1b1b1b", AccentColor = "6f97ff", BackgroundColor = "111111", OutlineColor = "313131" } },
+		['Gamesense']  		       = { 1, { FontColor = "ebebeb", MainColor = "111111", AccentColor = "93b81a", BackgroundColor = "111111", OutlineColor = "2f2f2f" } },
 		['Linoria']       		   = { 2, { FontColor = "ffffff", MainColor = "1c1c1c", AccentColor = "0055ff", BackgroundColor = "141414", OutlineColor = "323232" } },
 		['Radioactive']  		   = { 3, { FontColor = "70ff59", MainColor = "000000", AccentColor = "00ff00", BackgroundColor = "000000", OutlineColor = "00ff00" } },
 		['BBot']          		   = { 4, { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414" } },
@@ -65,13 +65,10 @@ local ThemeManager = {} do
 		['Ubuntu']        		   = { 9, { FontColor = "ffffff", MainColor = "3e3e3e", AccentColor = "e2581e", BackgroundColor = "323232", OutlineColor = "191919" } },
 		['Quartz']       		   = { 10, { FontColor = "ffffff", MainColor = "232330", AccentColor = "426e87", BackgroundColor = "1d1b26", OutlineColor = "27232f" } },
 		['Octohook']      		   = { 11, { FontColor = "ebebeb", MainColor = "232323", AccentColor = "ff87ff", BackgroundColor = "121212", OutlineColor = "3c3c3c" } },
-		['Gamesense']  		       = { 12, { FontColor = "ebebeb", MainColor = "111111", AccentColor = "93b81a", BackgroundColor = "111111", OutlineColor = "2f2f2f" } },
-		['Nekocheat']     		   = { 13, { FontColor = "ffffff", MainColor = "121212", AccentColor = "e21e70", BackgroundColor = "121212", OutlineColor = "3c3c3c" } },
-		['Nekocheat Blue']		   = { 14, { FontColor = "ffffff", MainColor = "121212", AccentColor = "00f7ff", BackgroundColor = "121212", OutlineColor = "3c3c3c" } },
-		['Twitch']                 = { 15, { FontColor = "ebebeb", MainColor = "1f1f23", AccentColor = "a970ff", BackgroundColor = "0e0e0e", OutlineColor = "2d2d2d" } },
-		['misclick.lua']           = { 16, { FontColor = "ebebeb", MainColor = "121212", AccentColor = "bd00ff", BackgroundColor = "121212", OutlineColor = "34003a" } },
-		['White']                  = { 17, { FontColor = "ffffff", MainColor = "181818", AccentColor = "7e7e7e", BackgroundColor = "1b1b1b", OutlineColor = "000000" } },
-		['onetap.js']              = { 18, { FontColor = "ffffff", MainColor = "000000", AccentColor = "675aff", BackgroundColor = "14131b", OutlineColor = "000000" } },
+		['Nekocheat']     		   = { 12, { FontColor = "ffffff", MainColor = "121212", AccentColor = "e21e70", BackgroundColor = "121212", OutlineColor = "3c3c3c" } },
+		['Nekocheat Blue']		   = { 13, { FontColor = "ffffff", MainColor = "121212", AccentColor = "00f7ff", BackgroundColor = "121212", OutlineColor = "3c3c3c" } },
+		['Twitch']                 = { 14, { FontColor = "ebebeb", MainColor = "1f1f23", AccentColor = "a970ff", BackgroundColor = "0e0e0e", OutlineColor = "2d2d2d" } },
+		['misclick.lua']           = { 15, { FontColor = "ebebeb", MainColor = "121212", AccentColor = "bd00ff", BackgroundColor = "121212", OutlineColor = "34003a" } },
 	}
 
 	function ApplyBackgroundVideo(videoLink)
