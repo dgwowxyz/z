@@ -54,7 +54,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Gamesense']  		       = { 1, { FontColor = "ebebeb", MainColor = "111111", AccentColor = "93b81a", BackgroundColor = "111111", OutlineColor = "2f2f2f" } },
+		['Gamesense']  		       = { 1, { FontColor = "ebebeb", MainColor = "111111", AccentColor = "ea82ff", BackgroundColor = "111111", OutlineColor = "2f2f2f" } },
 		['Linoria']       		   = { 2, { FontColor = "ffffff", MainColor = "1c1c1c", AccentColor = "0055ff", BackgroundColor = "141414", OutlineColor = "323232" } },
 		['Radioactive']  		   = { 3, { FontColor = "70ff59", MainColor = "000000", AccentColor = "00ff00", BackgroundColor = "000000", OutlineColor = "00ff00" } },
 		['BBot']          		   = { 4, { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414" } },
