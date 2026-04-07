@@ -54,7 +54,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Gamesense']  		       = { 1, { FontColor = "ebebeb", MainColor = "111111", AccentColor = "ea82ff", BackgroundColor = "111111", OutlineColor = "2f2f2f" } },
+		['hellolol']  		       = { 1, { FontColor = "ffffff", MainColor = "000000", AccentColor = "a0c0ff", BackgroundColor = "131315", OutlineColor = "323237" } },
 		['Linoria']       		   = { 2, { FontColor = "ffffff", MainColor = "1c1c1c", AccentColor = "0055ff", BackgroundColor = "141414", OutlineColor = "323232" } },
 		['Radioactive']  		   = { 3, { FontColor = "70ff59", MainColor = "000000", AccentColor = "00ff00", BackgroundColor = "000000", OutlineColor = "00ff00" } },
 		['BBot']          		   = { 4, { FontColor = "ffffff", MainColor = "1e1e1e", AccentColor = "7e48a3", BackgroundColor = "232323", OutlineColor = "141414" } },
@@ -69,6 +69,7 @@ local ThemeManager = {} do
 		['Nekocheat Blue']		   = { 13, { FontColor = "ffffff", MainColor = "121212", AccentColor = "00f7ff", BackgroundColor = "121212", OutlineColor = "3c3c3c" } },
 		['Twitch']                 = { 14, { FontColor = "ebebeb", MainColor = "1f1f23", AccentColor = "a970ff", BackgroundColor = "0e0e0e", OutlineColor = "2d2d2d" } },
 		['misclick.lua']           = { 15, { FontColor = "ebebeb", MainColor = "121212", AccentColor = "bd00ff", BackgroundColor = "121212", OutlineColor = "34003a" } },
+		['Gamesense']  		       = { 16, { FontColor = "ebebeb", MainColor = "111111", AccentColor = "8aa90d", BackgroundColor = "111111", OutlineColor = "2f2f2f" } },
 	}
 
 	function ApplyBackgroundVideo(videoLink)
